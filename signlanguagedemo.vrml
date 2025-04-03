@@ -1,0 +1,22 @@
+<vrml version="2.0">
+
+    <rootDomain>https://serhatakar.github.io/</rootDomain> <!-- Burası GitHub Pages domainin olacak -->
+
+    <creatorInfo>
+        <name>HoloNext</name>
+        <legalNotice type="Holonext">All rights reserved</legalNotice>
+        <copyright>Copyright © HoloNext 2025</copyright>
+    </creatorInfo>
+
+    <!-- VRML sadece installer indirecek -->
+    <protocol name="DOWNLOAD_AND_RUN" version="1">
+        <appName waitOnReturn="true">HandGestureDetection Installer</appName>
+        <appPath>https://drive.google.com/uc?export=download&id=19DmyvWfv-NAZ3lM4VHBokaZL4dFiCJaY</appPath>
+    </protocol>
+
+    <protocol name="META_INFO" protocolVersion="1" optional="true">
+        <name visible="True" color="#FFFFFF">Hand Gesture Installer Launcher</name>
+        <description>This VRML file downloads and runs the Hand Gesture Detection installer</description>
+    </protocol>
+
+</vrml>
